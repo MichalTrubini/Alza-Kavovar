@@ -1,0 +1,401 @@
+/* CSS Document */
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-Light-Pro.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-LightItal-Pro.otf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-Bold-Pro.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-BoldItal-Pro.otf");
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-Semibold-Pro.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-SembdItal-Pro.otf");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-Medium-Pro.otf");
+  font-style: normal;
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Archer-sage";
+  src: url("../fonts/Archer-MediumItal-Pro.otf");
+  font-style: italic;
+  font-weight: bolder;
+}
+.mobile #celek * {
+  margin: 0px auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archer-sage", sans-serif;
+}
+
+.mobile #celek {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.mobile #celek .pl-block {
+  width: 100%;
+  position: relative;
+}
+.mobile #celek .pl-block img.pl-full-w {
+  width: 100%;
+  height: auto;
+}
+.mobile #celek .pl-block img.pl-80-w {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.mobile #celek .pl-block img.pl-50-w {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+.mobile #celek .pl-block img.pl-60-w {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+.mobile #celek figure div {
+  text-align: center;
+}
+.mobile #celek p {
+  line-height: 36px;
+}
+.mobile #celek .pl-video-yt {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.mobile #celek .pl-video-yt iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mobile #celek .pl-block-2-3 {
+  width: 66.66%;
+  float: left;
+}
+.mobile #celek .pl-block-1-3 {
+  width: 33.33%;
+  float: left;
+}
+.mobile #celek .pl-block-1-4 {
+  width: 25%;
+  float: left;
+}
+.mobile #celek .pl-block-2-4 {
+  width: 50%;
+  float: left;
+}
+.mobile #celek .pl-block-3-4 {
+  width: 75%;
+  float: left;
+}
+.mobile #celek .pl-block-4-2-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mobile #celek .pl-block-4 {
+  width: 40%;
+  float: left;
+}
+.mobile #celek .pl-block-2 {
+  width: 20%;
+  float: left;
+}
+.mobile #celek .pl-img-hl1 {
+  width: 342px;
+}
+.mobile #celek .pl-d-flex {
+  display: flex;
+  flex-direction: row;
+}
+.mobile #celek .pl-block-four-icon {
+  width: 100%;
+  margin: 40px 10px;
+  padding: 50px 0;
+  border-top: 3px solid #E6E8EF;
+  border-bottom: 3px solid #E6E8EF;
+}
+.mobile #celek .pl-block-four-icon p {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: #585858;
+  margin: 20px 8px 0 8px;
+  line-height: 20px;
+}
+.mobile #celek .pl-block-four-icon .pl-border-left {
+  border-left: 1px solid black;
+}
+.mobile #celek .pl-block-four-icon .pl-border-right {
+  border-right: 1px solid black;
+}
+.mobile #celek .pl-block-four-icon .pl-border-bottom {
+  border-bottom: 1px solid #707070;
+}
+.mobile #celek .pl-left-brown-border {
+  border-left: 8px solid #50233A;
+}
+.mobile #celek .pl-gray-block {
+  width: 94%;
+  background-color: #50233A;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  z-index: 5;
+  position: relative;
+  top: 45px;
+}
+.mobile #celek .pl-gray-block p {
+  color: #E6E8EF;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.mobile #celek .pl-right-option {
+  width: 100%;
+  background-color: #E6E8EF;
+  padding: 16px 16px;
+}
+.mobile #celek .pl-right-option ul {
+  list-style: none;
+}
+.mobile #celek .pl-right-option ul li {
+  line-height: 28px;
+  font-size: 15px;
+  border-bottom: 4px solid #FFFFFF;
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+.mobile #celek .pl-left-option {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 30px 40px 0 40px;
+}
+.mobile #celek .pl-block-last-right {
+  width: 100%;
+}
+.mobile #celek .pl-block-last-left {
+  width: 100%;
+  padding: 20px 10px;
+}
+.mobile #celek .pl-block-last-left p {
+  font-size: 15px;
+  line-height: 32px;
+  color: #585858;
+  margin-top: 40px;
+}
+.mobile #celek .pl-iconx-1 {
+  background: transparent url("../img/ico_01_mlynek.svg") 50% 0% no-repeat padding-box;
+  background-size: contain;
+  height: 45px;
+}
+.mobile #celek .pl-iconx-2 {
+  background: transparent url("../img/ico_02_pid.svg") 50% 0% no-repeat padding-box;
+  background-size: contain;
+  height: 45px;
+}
+.mobile #celek .pl-iconx-3 {
+  background: transparent url("../img/ico_03_predspareni.svg") 50% 0% no-repeat padding-box;
+  background-size: contain;
+  height: 45px;
+}
+.mobile #celek .pl-iconx-4 {
+  background: transparent url("../img/ico_04_mnozstvi.svg") 50% 0% no-repeat padding-box;
+  background-size: contain;
+  height: 45px;
+}
+.mobile #celek .pl-iconx-5 {
+  background-image: url("../img/Group 110.svg"), url("../img/Group 107.svg");
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 70px 70px;
+  height: 144px;
+}
+.mobile #celek sup {
+  font-size: 20px;
+}
+.mobile #celek h2 {
+  font-size: 26px;
+  line-height: 36px;
+}
+.mobile #celek h3 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+  color: #50233A;
+}
+.mobile #celek h4 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 42px;
+}
+.mobile #celek .pl-txt-center {
+  text-align: center;
+}
+.mobile #celek .pl-hr-line-80 {
+  height: 3px;
+  width: 95%;
+  background-color: #E6E8EF;
+  margin: 30px auto;
+}
+.mobile #celek .pl-brown-italic-18 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #50233A;
+  font-style: italic;
+}
+.mobile #celek .pl-brown-26 {
+  font-size: 26px;
+  color: #50233A;
+}
+.mobile #celek .pl-img-title {
+  font-size: 16px;
+  line-height: 26px;
+  font-style: italic;
+  color: #50233A;
+  text-align: center;
+}
+.mobile #celek .pl-mt-15 {
+  margin-top: 15px;
+}
+.mobile #celek .pl-mt-20 {
+  margin-top: 20px;
+}
+.mobile #celek .pl-mt-40 {
+  margin-top: 40px;
+}
+.mobile #celek .pl-mt-60 {
+  margin-top: 60px;
+}
+.mobile #celek .pl-mt-80 {
+  margin-top: 80px;
+}
+.mobile #celek .pl-m-15 {
+  margin: 15px;
+}
+.mobile #celek .pl-m-20 {
+  margin: 20px;
+}
+.mobile #celek .pl-m-40 {
+  margin: 40px;
+}
+.mobile #celek .pl-m-60 {
+  margin: 60px;
+}
+.mobile #celek .pl-ml-20 {
+  margin-left: 20px;
+}
+.mobile #celek .pl-ml-40 {
+  margin-left: 40px;
+}
+.mobile #celek .pl-ml-60 {
+  margin-left: 60px;
+}
+.mobile #celek .pl-ml-80 {
+  margin-left: 80px;
+}
+.mobile #celek .pl-mr-20 {
+  margin-right: 20px;
+}
+.mobile #celek .pl-mr-40 {
+  margin-right: 40px;
+}
+.mobile #celek .pl-mr-60 {
+  margin-right: 60px;
+}
+.mobile #celek .pl-mr-80 {
+  margin-right: 80px;
+}
+.mobile #celek .pl-mw-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mobile #celek .pl-mw-40 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.mobile #celek .pl-mw-60 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.mobile #celek .pl-mw-80 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.mobile #celek .pl-mb-20 {
+  margin-bottom: 20px;
+}
+.mobile #celek .pl-mb-40 {
+  margin-bottom: 40px;
+}
+.mobile #celek .pl-mb-60 {
+  margin-bottom: 60px;
+}
+.mobile #celek .pl-mb-80 {
+  margin-bottom: 80px;
+}
+.mobile #celek .pl-pl-40 {
+  padding-left: 40px;
+}
+.mobile #celek .pl-pt-20 {
+  padding-top: 20px;
+}
+.mobile #celek .pl-ph-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mobile #celek .pl-text-26 {
+  font-size: 26px;
+}
+.mobile #celek .pl-text-15 {
+  font-size: 15px;
+  line-height: 32px;
+}
+.mobile #celek .pl-p-60 {
+  padding: 60px;
+}
+.mobile #celek .pl-pw-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.mobile #celek .pl-pw-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mobile #celek .pl-pw-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.mobile #celek .bold {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
