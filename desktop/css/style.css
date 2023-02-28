@@ -46,7 +46,6 @@
   font-size: 16px;
 }
 #celek .pl-block {
-  width: 100%;
   position: relative;
 }
 #celek .pl-block img.pl-full-w {
@@ -109,12 +108,16 @@
   flex-direction: row;
   align-items: center;
 }
+#celek .displayflex {
+  display: flex;
+}
 #celek .pl-block-four-icon {
   margin: 40px 60px;
   padding: 50px 0;
-  border-top: 3px solid #E6E8EF;
-  border-bottom: 3px solid #E6E8EF;
-  display: flex;
+  border-top: 3px solid #e6e8ef;
+  border-bottom: 3px solid #e6e8ef;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 #celek .pl-block-four-icon p {
   font-size: 20px;
@@ -131,12 +134,12 @@
   border-right: 1px solid black;
 }
 #celek .pl-left-brown-border {
-  border-left: 12px solid #50233A;
+  border-left: 12px solid #50233a;
 }
 #celek .pl-gray-block {
   width: 80%;
-  background-color: #50233A;
-  color: #FFFFFF;
+  background-color: #50233a;
+  color: #ffffff;
   text-align: center;
   padding: 35px;
   z-index: 5;
@@ -144,13 +147,17 @@
   top: 45px;
 }
 #celek .pl-gray-block p {
-  color: #E6E8EF;
+  color: #e6e8ef;
   font-size: 36px;
   font-weight: bold;
 }
+#celek .highlightsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 #celek .pl-right-option {
   width: 64%;
-  background-color: #E6E8EF;
+  background-color: #e6e8ef;
   padding: 45px 45px;
   float: left;
 }
@@ -160,13 +167,13 @@
 #celek .pl-right-option ul li {
   line-height: 28px;
   font-size: 16px;
-  border-bottom: 4px solid #FFFFFF;
+  border-bottom: 4px solid #ffffff;
   margin: 10px 0;
   padding-bottom: 10px;
 }
 #celek .pl-left-option {
   width: 36%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 0 40px 0 40px;
   float: left;
 }
@@ -222,7 +229,7 @@
 #celek h3 {
   font-size: 36px;
   font-weight: bold;
-  color: #50233A;
+  color: #50233a;
 }
 #celek h4 {
   font-size: 36px;
@@ -235,24 +242,24 @@
 #celek .pl-hr-line-80 {
   height: 3px;
   width: 95%;
-  background-color: #E6E8EF;
+  background-color: #e6e8ef;
   margin: 60px auto;
 }
 #celek .pl-gray-italic-32 {
   font-size: 32px;
-  color: #50233A;
+  color: #50233a;
   font-style: italic;
   font-weight: 600;
 }
 #celek .pl-gray-32 {
   font-size: 32px;
-  color: #50233A;
+  color: #50233a;
 }
 #celek .pl-img-title {
   font-size: 16px;
   line-height: 26px;
   font-style: italic;
-  color: #50233A;
+  color: #50233a;
   text-align: center;
 }
 #celek .pl-mt-20 {
@@ -374,5 +381,161 @@
   .layout-0 #celek .pl-block img.pl-full-w.pl-p-60 {
     width: 80%;
     height: auto;
+  }
+  .layout-0 #celek img.pl-full-w.pl-p-60.imgFix {
+    width: 100%;
+    padding: 60px;
+  }
+  .layout-0 #celek .pl-block-last-left {
+    width: 57%;
+    float: left;
+    margin: 20px 20px 20px 40px;
+  }
+  .layout-0 #celek .pl-block-last-right {
+    width: 43%;
+    float: left;
+  }
+}
+@media screen and (max-width: 525px) {
+  .mobile #celek h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .mobile #celek .pl-gray-block p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .mobile #celek .pl-gray-block {
+    width: 94%;
+    padding: 20px;
+  }
+  .mobile #celek .pl-d-flex {
+    flex-direction: column;
+  }
+  .mobile #celek .pl-d-flex > div {
+    width: auto;
+  }
+  .mobile #celek .pl-mr-80 {
+    margin: 15px;
+  }
+  .mobile #celek .pl-gray-italic-32 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #50233a;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .mobile #celek .pl-block img.imgFixOne {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .mobile #celek .pl-block-1-3 {
+    margin: 40px 0;
+  }
+  .mobile #celek .mgZero {
+    margin: 0;
+  }
+  .mobile #celek .pl-block-four-icon {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile #celek .pl-border-left,
+  .mobile #celek .pl-border-right {
+    border: none;
+  }
+  .mobile #celek .pl-block-four-icon p {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: #585858;
+    margin: 20px 8px 0 8px;
+    line-height: 20px;
+  }
+  .mobile #celek .highlightsItem {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .mobile #celek .mobileBorderRight {
+    border-right: 1px solid black;
+  }
+  .mobile #celek .mobileBorderBottom {
+    border-bottom: 1px solid black;
+  }
+  .mobile #celek .fxDirRow {
+    flex-direction: row;
+  }
+  .mobile #celek .fxDirColRev {
+    flex-direction: column-reverse;
+  }
+  .mobile #celek .imgCenter {
+    display: block;
+    margin: auto;
+  }
+  .mobile #celek .pl-hr-line-80 {
+    margin: 30px auto;
+  }
+  .mobile #celek h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .mobile #celek .pl-text-15 {
+    font-size: 15px;
+    line-height: 32px;
+    margin-top: 15px;
+  }
+  .mobile #celek .pl-pw-40 {
+    padding: 0;
+    margin-left: 20px;
+  }
+  .mobile #celek .pl-pl-40 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .mobile #celek .pl-left-brown-border {
+    border-left: 8px solid #50233a;
+  }
+  .mobile #celek img.pl-full-w.pl-p-60.imgFix {
+    width: 100%;
+    padding: 0px;
+  }
+  .mobile #celek .marginFix {
+    margin-left: 20px;
+  }
+  .mobile #celek .pl-80-wMobile {
+    width: 80% !important;
+    display: block;
+    margin: auto;
+  }
+  .mobile #celek .pl-block-option {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile #celek .pl-right-option {
+    width: 100%;
+    padding: 16px 16px;
+    float: none;
+  }
+  .mobile #celek .pl-right-option ul li {
+    font-size: 15px;
+  }
+  .mobile #celek .pl-left-option {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 40px 0 40px;
+    float: left;
+  }
+  .mobile #celek .pl-block-last-left p {
+    font-size: 15px;
+    line-height: 32px;
+    color: #585858;
+    margin-top: 40px;
+    font-weight: 400;
+  }
+  .mobile #celek .pl-block-last-left {
+    margin: 0;
+    padding: 20px 10px;
   }
 }/*# sourceMappingURL=style.css.map */
